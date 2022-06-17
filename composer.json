@@ -1,5 +1,5 @@
 {
-    "name": "gufy/cpanel-whm",
+    "name": "roko91/cpanel-whm",
     "description": "Laravel cPanel/WHM API Package.",
     "keywords": ["framework", "laravel","cPanel","WHM","cPanel API"],
     "license": "MIT",
