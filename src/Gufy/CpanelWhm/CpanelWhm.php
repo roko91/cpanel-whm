@@ -175,7 +175,7 @@ class CpanelWhm extends Cpanel
      * @return array results of API call
      * @since v1.0.0
      */
-    protected function runQuery($action, $arguments)
+    protected function runQuery($action, $arguments = [], $throw = false)
     {
         $this->setAuthorization($this->username, $this->password)
             ->setHost($this->hostName)
